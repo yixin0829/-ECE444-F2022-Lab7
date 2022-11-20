@@ -9,7 +9,6 @@ from app import application, FakeNewsModel
 def test_detector(news: str, expected_code: int):
     tester = application.test_client()
     fake_news_model = FakeNewsModel()
-    fake_news_model.load_model()
     pred = fake_news_model.predict("Trump is dead.")
     assert pred == expected_code
     
