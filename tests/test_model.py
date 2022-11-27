@@ -1,5 +1,5 @@
 import pytest
-from app import application, FakeNewsModel
+from application import application, FakeNewsModel
 
 @pytest.mark.parametrize("news, expected_code", [("Donald Trump was an U.S. president", 0),
     ("Real News.", 0),
