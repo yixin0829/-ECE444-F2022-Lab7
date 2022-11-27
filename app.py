@@ -27,8 +27,12 @@ class FakeNewsModel(object):
         pred = self.model.predict(self.vectorizer.transform([text]))[0]
         return 0 if pred == "REAL" else 1
 
+@application.route('/')
+def home():
+    return "<h1>This is a homepage of ECE444 Lab 7</h1>"
+
 @application.route('/ping', methods=['GET'])
-def hello():
+def ping():
     return "Welcome to your fake news detector tool."
 
 @application.route('/predict', methods=['GET'])
