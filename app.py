@@ -52,5 +52,8 @@ def predict():
 
 
 if __name__ == '__main__':
-    application.run(debug=True)
+    # Setting debug to True enables debug output. This line should be
+    # removed before deploying a production app.
+    ## application.debug = True
+    application.run()
 
