@@ -11,6 +11,9 @@ The testing function and four test cases are included in [api_latency_testing.py
 | 3         | "Donald Trump Achieves World Peace!"          | 1                 | 1               | 151.6                               |
 | 4         | "Elon Musk bought Google with 1$"             | 1                 | 1               | 151.8                               |
 
+Screenshot of console log:
+![image](https://user-images.githubusercontent.com/56566212/204156592-998bc5f4-206c-4cef-ad53-c6d098ea2280.png)
+
 ## Appendix
 - Beanstalk's running environment
 ![image](https://user-images.githubusercontent.com/56566212/204156207-3a16a101-bf34-4436-ad97-087c0bac3c4c.png)
